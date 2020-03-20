@@ -1,0 +1,50 @@
+/* TOPO */
+header{;
+  background: #c9ebfa  ;
+}
+header h5{
+  color: #1d2330 ;
+}
+header h5:hover{
+  color: #5f00f1 ;
+}
+/* APRESENTAÇÃO DO JOGO */
+#home{
+   background:#edb800;
+}
+#home-info{
+  padding: 20px;
+}
+#home-info{
+  border-radius: 16px;
+  background: white;
+  box-shadow: inset 3px 3px 10px black,
+              inset -5px -5px 10px  white ;
+}
+/* APRESENTAÇÃO DO JOGO PART2 */
+#sobreJogo{
+  background:#ada5c7;
+}
+#sobreJogo h1{
+  color:BLACK;
+  text-shadow: -2px 1px 1px  #471d1d ;
+}
+#sobre-info{
+    padding: 20px;
+}
+#sobre-info{
+  border-radius: 16px;
+  background: white;
+  box-shadow: inset 3px 3px 10px black,
+              inset -5px -5px 10px  white ;
+}
+/* GUILDA */
+
+#regra{
+  color:white;
+  padding: 10px;
+  border-radius: 52px;
+  background:  #9e1a1a ;
+  box-shadow: inset 3px 3px 10px black,
+              inset -5px -5px 10px  #9e1a1a ;
+}
