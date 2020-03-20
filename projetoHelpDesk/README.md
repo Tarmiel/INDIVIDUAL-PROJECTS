@@ -7,3 +7,6 @@
   <li>BOOTSTRAP 4</li>
   <li>PHP</li>
 </ul>
+<hr>
+
+![IMG](https://fernandoportugal.com/img/php_exercicios_fernando_portugal_03.png)
