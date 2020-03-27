@@ -6,6 +6,8 @@ Tecnologias utilizadas:</h3>
   <li>HTML5</li>
   <li>PHP</li>
 </h4></ul>
+
+<h3>Função: Enviar Emails..</h3>
 <hr>
 
 ![IMG](https://github.com/Tarmiel/PJ_web/blob/master/projetoAppSendEmail/mailsend.png)
