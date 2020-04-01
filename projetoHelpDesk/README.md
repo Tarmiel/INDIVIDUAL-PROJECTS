@@ -2,6 +2,7 @@
 <h4> Site desenvolvido ao longo do módulo "PHP7" do curso "<a href="https://www.udemy.com/course/web-completo/">Desenvolvimento Web Completo 2020 - 20 cursos + 20 projetos - Udemy</a>"</h4>
 <h4> APP Help Desk - abertura de chamados e consulta </h4>
 <h4> Dados para login em "/Scripts/valida_login.php"</h4>
+<hr>
 <h4>Tecnologias utilizadas:</h4>
 <ul>
   <li><h4>HTML5</h4></li>
