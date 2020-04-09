@@ -3,9 +3,9 @@
   class Conexao{
 
     private $host = 'localhost';
-    private $dbname = 'php_com_pdo';
-    private $user = 'root';
-    private $pass = '';
+    private $dbname = 'php_com_pdo'; //nome da base de dados
+    private $user = 'root'; //usuario
+    private $pass = ''; //senha
 
     public function conectar(){
       try{
