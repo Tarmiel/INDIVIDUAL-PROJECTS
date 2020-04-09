@@ -12,6 +12,9 @@
 <hr>
 
 ![IMG](https://github.com/Tarmiel/PJ_web/blob/master/dinamic_HelpDesk/prints/p1.png)
+<hr>
 ![IMG](https://github.com/Tarmiel/PJ_web/blob/master/dinamic_HelpDesk/prints/p2.png)
+<hr>
 ![IMG](https://github.com/Tarmiel/PJ_web/blob/master/dinamic_HelpDesk/prints/p3.png)
+<hr>
 ![IMG](https://github.com/Tarmiel/PJ_web/blob/master/dinamic_HelpDesk/prints/p4.png)
