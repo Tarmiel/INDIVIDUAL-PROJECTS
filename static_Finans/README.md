@@ -9,7 +9,7 @@ Tecnologias utilizadas:</h3>
 </h4></ul>
 <hr>
 
-![PRT](https://github.com/Tarmiel/PJ_web/blob/master/projetoFinans/print/p1.png)
-![PRT](https://github.com/Tarmiel/PJ_web/blob/master/projetoFinans/print/p2.png)
-![PRT](https://github.com/Tarmiel/PJ_web/blob/master/projetoFinans/print/p3.png)
-![PRT](https://github.com/Tarmiel/PJ_web/blob/master/projetoFinans/print/p4.png)
+![PRT](https://github.com/Tarmiel/PJ_web/blob/master/static_Finans/print/p1.png)
+![PRT](https://github.com/Tarmiel/PJ_web/blob/master/static_Finans/print/p2.png)
+![PRT](https://github.com/Tarmiel/PJ_web/blob/master/static_Finans/print/p3.png)
+![PRT](https://github.com/Tarmiel/PJ_web/blob/master/static_Finans/print/p4.png)
