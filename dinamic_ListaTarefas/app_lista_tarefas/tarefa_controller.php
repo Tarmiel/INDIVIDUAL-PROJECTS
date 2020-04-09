@@ -4,8 +4,8 @@
   require "tarefa_service.php";
   require "conexao.php";
 
-  $tarefa = new Tarefa(); //tarefa_model
-  $tarefa->__set('tarefa',$_POST['tarefa']);
+  $tarefa = new Tarefa(); //tarefa_model -- criando o objeto
+  $tarefa->__set('tarefa',$_POST['tarefa']); //setando o valor
 
   $conexao = new Conexao();
 

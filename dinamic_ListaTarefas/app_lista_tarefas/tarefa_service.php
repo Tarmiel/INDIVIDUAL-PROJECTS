@@ -16,13 +16,13 @@
   		$stmt->bindValue(':tarefa', $this->tarefa->__get('tarefa'));
   		$stmt->execute();
   	}
-    public function recuperar(){
+    public function recuperar(){ //read
 
     }
-    public function atualizar(){
+    public function atualizar(){ //update
 
     }
-    public function remover(){
+    public function remover(){ //delete
 
     }
 
