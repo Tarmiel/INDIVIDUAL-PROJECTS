@@ -11,4 +11,7 @@
 </ul>
 <hr>
 
-![IMG](https://fernandoportugal.com/img/php_exercicios_fernando_portugal_03.png)
+![IMG](https://github.com/Tarmiel/PJ_web/blob/master/dinamic_HelpDesk/prints/p1.png)
+![IMG](https://github.com/Tarmiel/PJ_web/blob/master/dinamic_HelpDesk/prints/p2.png)
+![IMG](https://github.com/Tarmiel/PJ_web/blob/master/dinamic_HelpDesk/prints/p3.png)
+![IMG](https://github.com/Tarmiel/PJ_web/blob/master/dinamic_HelpDesk/prints/p4.png)
