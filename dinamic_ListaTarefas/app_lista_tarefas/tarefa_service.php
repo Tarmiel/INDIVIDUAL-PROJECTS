@@ -1,7 +1,7 @@
 <?php
 
+  //CRUD
   class TarefaService{
-    //CRUD
     private $conexao;
     private $tarefa;
 
