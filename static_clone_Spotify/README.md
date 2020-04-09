@@ -4,9 +4,9 @@
 
 <h4>Tecnologias utilizadas:</h4>
 <ul>
-  <li>HTML5</li>
-  <li>CSS3</li>
-  <li>BOOTSTRAP 4</li>
+  <li><h4>HTML5<h4></li>
+  <li><h4>CSS3<h4></li>
+  <li><h4>BOOTSTRAP 4<h4></li>
 </ul>
 
 <hr>
