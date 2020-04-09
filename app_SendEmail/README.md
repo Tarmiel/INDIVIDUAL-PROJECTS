@@ -12,4 +12,4 @@ Tecnologias utilizadas:</h3>
 <h5>Função: Enviar Emails..</h5>
 <hr>
 
-![img](https://github.com/Tarmiel/PJ_web/blob/master/appSendEmail/mailsend.png)
+![img](https://github.com/Tarmiel/PJ_web/blob/master/app_SendEmail/mailsend.png)
