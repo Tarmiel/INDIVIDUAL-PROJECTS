@@ -4,16 +4,16 @@
 
 <h4>Tecnologias utilizadas:</h4>
 <ul>
-  <li>HTML5</li>
-  <li>CSS3</li>
-  <li>BOOTSTRAP 4</li>
+  <li><h4>HTML5<h4></li>
+  <li><h4>CSS3<h4></li>
+  <li><h4>BOOTSTRAP 4<h4></li>
 </ul>
 
 <hr>
 
-![PRINT](https://github.com/Tarmiel/PJ_web/blob/master/projetoSpotify/print/p1.png)
-![PRINT](https://github.com/Tarmiel/PJ_web/blob/master/projetoSpotify/print/p2.png)
-![PRINT](https://github.com/Tarmiel/PJ_web/blob/master/projetoSpotify/print/p3.png)
-![PRINT](https://github.com/Tarmiel/PJ_web/blob/master/projetoSpotify/print/p4.png)
+![PRINT](https://github.com/Tarmiel/PJ_web/blob/master/static_clone_Spotify/print/p1.png)
+![PRINT](https://github.com/Tarmiel/PJ_web/blob/master/static_clone_Spotify/print/p2.png)
+![PRINT](https://github.com/Tarmiel/PJ_web/blob/master/static_clone_Spotify/print/p3.png)
+![PRINT](https://github.com/Tarmiel/PJ_web/blob/master/static_clone_Spotify/print/p4.png)
 
 <hr>
