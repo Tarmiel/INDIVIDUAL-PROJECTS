@@ -22,6 +22,17 @@
 
     $tarefaService = new TarefaService($conexao,$tarefa);
     $tarefas = $tarefaService->recuperar(); //passando o array de objetos
-   }
+  }else if($acao == 'atualizar'){
+     $tarefa = new Tarefa();
+     $tarefa->__set('id',$_POST['id'])->
+              __set('tarefa',$_POST['tarefa']);
+
+     $conexao = new Conexao();
+
+     $tarefaService = new TarefaService($conexao,$tarefa);
+     if($tarefaService->atualizar()){
+       header('Location:todas_tarefas.php');
+     }
+    }
 
  ?>
