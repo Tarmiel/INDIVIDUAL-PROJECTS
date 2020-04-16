@@ -50,6 +50,14 @@
       header('Location:todas_tarefas.php');
 
 
+    }else if($acao=='recuperarTarefasPendentes'){
+    $tarefa = new Tarefa();
+    $tarefa->__set('id_Status',1);
+    $conexao = new Conexao();
+    
+
+    $tarefaService = new TarefaService($conexao,$tarefa);
+    $tarefaService->recuperarTarefasPendentes(); //passando o array de objetos
     }
     
 
