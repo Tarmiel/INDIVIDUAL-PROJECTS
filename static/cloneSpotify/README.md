@@ -11,9 +11,9 @@
 
 <hr>
 
-![PRINT](https://github.com/Tarmiel/PJ_web/blob/master/static_clone_Spotify/print/p1.png)
-![PRINT](https://github.com/Tarmiel/PJ_web/blob/master/static_clone_Spotify/print/p2.png)
-![PRINT](https://github.com/Tarmiel/PJ_web/blob/master/static_clone_Spotify/print/p3.png)
-![PRINT](https://github.com/Tarmiel/PJ_web/blob/master/static_clone_Spotify/print/p4.png)
+![PRINT](https://github.com/Tarmiel/PJ_web/blob/master/static/cloneSpotify/print/p1.png)
+![PRINT](https://github.com/Tarmiel/PJ_web/blob/master/static/cloneSpotify/print/p2.png)
+![PRINT](https://github.com/Tarmiel/PJ_web/blob/master/static/cloneSpotify/print/p3.png)
+![PRINT](https://github.com/Tarmiel/PJ_web/blob/master/static/cloneSpotify/print/p4.png)
 
 <hr>
