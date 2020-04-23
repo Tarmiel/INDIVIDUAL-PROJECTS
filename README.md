@@ -1,7 +1,6 @@
 <h2>Clonagem e criação de sites utilizando: </h2>
 <hr>
 <h4>Tecnologias: </h4>
-<br>
 <h6>HTML5</h6>
 <h6>CSS(Bootstrap...)</h6>
 <h6>JavaScript</h6>
