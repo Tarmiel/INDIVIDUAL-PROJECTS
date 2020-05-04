@@ -1,4 +1,6 @@
 <h3>Sites desenvolvidos e clonados com WordPress</h3>
+<h4>Utilizado(ndo): Elementor, Gutenberg e Microthemer</h4>
+
 <h6>Outros projetos eu perdi quando "brokei" meu S.O(R.I.P projetos)</h6>
 <hr>
 
