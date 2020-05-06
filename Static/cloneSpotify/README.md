@@ -1,5 +1,5 @@
 # Dev - Repositório do Tarmiel(Lucas)
-<h4> Clonagem do site Spotify desenvolvido ao longo do módulo "Bootstrap 4 & Design responsivo" do curso do curso
+<h4> Clonagem do site Spotify desenvolvido ao longo do módulo "Bootstrap 4 & Design responsivo" do curso
 "<a href="https://www.udemy.com/course/web-completo/">Desenvolvimento Web Completo 2020 - 20 cursos + 20 projetos - Udemy</a>"</h4>
 
 <h4>Tecnologias utilizadas:</h4>
