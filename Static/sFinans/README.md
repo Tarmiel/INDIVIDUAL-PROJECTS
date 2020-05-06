@@ -1,5 +1,5 @@
 <h1>Dev - Repositório do Tarmiel(Lucas)</h1>
-<h3>Site desenvolvido ao longo do módulo "Bootstrap 4 & Design responsivo" do curso do curso "<a href="https://www.udemy.com/course/web-completo/">Desenvolvimento Web Completo 2020 - 20 cursos + 20 projetos - Udemy</a>"
+<h3>Site desenvolvido ao longo do módulo "Bootstrap 4 & Design responsivo" do curso "<a href="https://www.udemy.com/course/web-completo/">Desenvolvimento Web Completo 2020 - 20 cursos + 20 projetos - Udemy</a>"
 Tecnologias utilizadas:</h3>
 
 <ul><h4>
