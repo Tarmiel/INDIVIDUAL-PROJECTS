@@ -1,5 +1,5 @@
 <h1>Dev - Repositório do Tarmiel(Lucas)</h1>
-<h3>Site desenvolvido ao longo do módulo "Bootstrap 4 & Design responsivo" do curso do curso "<a href="https://www.udemy.com/course/web-completo/">Desenvolvimento Web Completo 2020 - 20 cursos + 20 projetos - Udemy</a>"
+<h3>Site desenvolvido ao longo do módulo "Bootstrap 4 & Design responsivo" do curso "<a href="https://www.udemy.com/course/web-completo/">Desenvolvimento Web Completo 2020 - 20 cursos + 20 projetos - Udemy</a>"
 Tecnologias utilizadas:</h3>
 
 <ul><h4>
@@ -9,7 +9,7 @@ Tecnologias utilizadas:</h3>
 </h4></ul>
 <hr>
 
-![PRT](https://github.com/Tarmiel/PJ_web/blob/master/static/sFinans/print/p1.png)
-![PRT](https://github.com/Tarmiel/PJ_web/blob/master/static/sFinans/print/p2.png)
-![PRT](https://github.com/Tarmiel/PJ_web/blob/master/static/sFinans/print/p3.png)
-![PRT](https://github.com/Tarmiel/PJ_web/blob/master/static/sFinans/print/p4.png)
+![PRT](https://github.com/Tarmiel/PJ_web/blob/master/Static/sFinans/print/p1.png)
+![PRT](https://github.com/Tarmiel/PJ_web/blob/master/Static/sFinans/print/p2.png)
+![PRT](https://github.com/Tarmiel/PJ_web/blob/master/Static/sFinans/print/p3.png)
+![PRT](https://github.com/Tarmiel/PJ_web/blob/master/Static/sFinans/print/p4.png)
