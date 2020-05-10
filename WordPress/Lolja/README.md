@@ -3,8 +3,10 @@
 
 <hr>
 <h3>Home</h3>
+
 ![IMG](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/Lolja/p1.png)
 
 <hr>
 <h3>Loja/Produtos</h3>
+
 ![IMG](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/Lolja/p2.png)
