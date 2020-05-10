@@ -1,4 +1,6 @@
 <h4>E-commerce baseado no vídeo do canal <a href="https://www.youtube.com/user/insufmental"> a Escola de Sites</a></h4>
+<h5>Tema:</h5>
+<li>OceanWP</li>
 <h5>Plugins:</h5>
 <li>Elementor</li>
 <li>Claudio Sanches - Correios for WooCommerce</li>
