@@ -14,4 +14,9 @@
 <hr>
 
 ![imagem](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/SmartCell/p5.png)
+<hr>
 
+![imagem](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/SmartCell/p6.png)
+<hr>
+
+![imagem](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/SmartCell/p7.png)
