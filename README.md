@@ -1,5 +1,4 @@
 <h2>Clonagem e criação de sites utilizando: </h2>
-<hr>
 <h5>HTML5</h5>
 <h5>CSS(Bootstrap...)</h5>
 <h5>JavaScript</h5>
