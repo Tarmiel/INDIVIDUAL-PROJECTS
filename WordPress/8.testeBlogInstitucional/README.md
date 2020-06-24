@@ -7,4 +7,4 @@
 
 <hr>
 
-![IMG](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/testeBlogInstitucional/p1.png)
+![IMG](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/8.testeBlogInstitucional/p1.png)
