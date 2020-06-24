@@ -13,22 +13,22 @@
 
 <hr>
 
-![imagem](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/SmartCell/p1.png)
+![imagem](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/9.SmartCell/p1.png)
 <hr>
 
-![imagem](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/SmartCell/p2.png)
+![imagem](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/9.SmartCell/p2.png)
 <hr>
 
-![imagem](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/SmartCell/p3.png)
+![imagem](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/9.SmartCell/p3.png)
 <hr>
 
-![imagem](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/SmartCell/p4.png)
+![imagem](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/9.SmartCell/p4.png)
 <hr>
 
-![imagem](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/SmartCell/p5.png)
+![imagem](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/9.SmartCell/p5.png)
 <hr>
 
-![imagem](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/SmartCell/p6.png)
+![imagem](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/9.SmartCell/p6.png)
 <hr>
 
-![imagem](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/SmartCell/p7.png)
+![imagem](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/9.SmartCell/p7.png)
