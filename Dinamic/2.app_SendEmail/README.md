@@ -12,4 +12,4 @@
 <h4>Utilizado a biblíoteca PHPMailer</h4>
 <hr>
 
-![img](https://github.com/Tarmiel/PJ_web/blob/master/Dinamic/app_SendEmail/mailsend.png)
+![img](https://github.com/Tarmiel/PJ_web/blob/master/Dinamic/2.app_SendEmail/logo.png)
