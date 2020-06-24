@@ -2,4 +2,4 @@
 <h6>em desenvolvimento(talvez..)</h6>
 <hr>
 
-![IMG](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/Clone_vemSerPraia/p1.png)
+![IMG](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/6.Clone_vemSerPraia/p1.png)
