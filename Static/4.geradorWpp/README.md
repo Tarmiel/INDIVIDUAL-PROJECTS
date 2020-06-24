@@ -2,4 +2,4 @@
 <h6>Em atualização...</h6>
 <hr>
 
-![IMG](https://github.com/Tarmiel/PJ_web/blob/master/Static/geradorWpp/p1.png)
+![IMG](https://github.com/Tarmiel/PJ_web/blob/master/Static/4.geradorWpp/p1.png)
