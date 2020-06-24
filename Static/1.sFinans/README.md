@@ -10,6 +10,6 @@ Tecnologias utilizadas:</h3>
 <hr>
 
 ![PRT](https://github.com/Tarmiel/PJ_web/blob/master/Static/1.sFinans/print/p1.png)
-![PRT](https://github.com/Tarmiel/PJ_web/blob/master/Static/1.ssFinans/print/p2.png)
-![PRT](https://github.com/Tarmiel/PJ_web/blob/master/Static/1.ssFinans/print/p3.png)
-![PRT](https://github.com/Tarmiel/PJ_web/blob/master/Static/1.ssFinans/print/p4.png)
+![PRT](https://github.com/Tarmiel/PJ_web/blob/master/Static/1.sFinans/print/p2.png)
+![PRT](https://github.com/Tarmiel/PJ_web/blob/master/Static/1.sFinans/print/p3.png)
+![PRT](https://github.com/Tarmiel/PJ_web/blob/master/Static/1.sFinans/print/p4.png)
