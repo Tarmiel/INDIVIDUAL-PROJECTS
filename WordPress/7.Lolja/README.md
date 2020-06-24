@@ -9,8 +9,8 @@
 <hr>
 <h4>Home</h4>
 
-![IMG](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/Lolja/p1.png)
+![IMG](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/7.Lolja/p1.png)
 <hr>
 <h4>Loja / Produtos</h4>
 
-![IMG](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/Lolja/p2.png)
+![IMG](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/7.Lolja/p2.png)
