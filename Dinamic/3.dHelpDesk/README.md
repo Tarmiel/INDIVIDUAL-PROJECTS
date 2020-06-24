@@ -11,13 +11,13 @@
 </ul>
 <hr>
 
-![IMG](https://github.com/Tarmiel/PJ_web/blob/master/Dinamic/dHelpDesk/prints/p1.png)
+![IMG](https://github.com/Tarmiel/PJ_web/blob/master/Dinamic/3.dHelpDesk/prints/p1.png)
 <hr>
 
-![IMG](https://github.com/Tarmiel/PJ_web/blob/master/Dinamic/dHelpDesk/prints/p2.png)
+![IMG](https://github.com/Tarmiel/PJ_web/blob/master/Dinamic/3.dHelpDesk/prints/p2.png)
 <hr>
 
-![IMG](https://github.com/Tarmiel/PJ_web/blob/master/Dinamic/dHelpDesk/prints/p3.png)
+![IMG](https://github.com/Tarmiel/PJ_web/blob/master/Dinamic/3.dHelpDesk/prints/p3.png)
 <hr>
 
-![IMG](https://github.com/Tarmiel/PJ_web/blob/master/Dinamic/dHelpDesk/prints/p4.png)
+![IMG](https://github.com/Tarmiel/PJ_web/blob/master/Dinamic/3.dHelpDesk/prints/p4.png)
