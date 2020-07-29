@@ -50,6 +50,7 @@
     border: 2px solid #34cb79;
 
 }
+/* pegar a tag li ao inves da imagem e do span */
 .items-grid li img,.items-grid li span{
     pointer-events: none;
 }

@@ -15,13 +15,15 @@
     <!-- CSS only -->
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/modal.css">
+
     <link rel="stylesheet" href="styles/responsive.css">
 
 </head>
 <body>
 
     <header>
-      <nav class="navbar navbar-expand-sm mt-3">
+      <nav class="navbar navbar-expand-sm mt-2">
         <div class="container">
           <img class="logo-img" src="assets/logo.svg" width="150">
 
@@ -31,7 +33,7 @@
 
           <div class="collapse navbar-collapse" id="nav-principal">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item text-center"> <a href="" class="log-in-navbar"><img src="./assets/log-in.svg" alt="Icone Cadastro" width="30"> Cadastre um ponto de coleta</a> </li>
+              <li class="nav-item text-center"> <a href="#" class="log-in-navbar"><img src="./assets/log-in.svg" alt="Icone Cadastro" width="30"> Cadastre um ponto de coleta</a> </li>
               <hr class="barra">
             </ul>
           </div>
@@ -48,13 +50,30 @@
                 <button type="button" class="btn"><img src="./assets/search.svg" alt="Pesquisar" class="searchIcon"> Pesquisar pontos de coleta</button>
             </div>
             <div class="col-md-7">
-                <img src="./assets/home-background.svg" class="img-fluid d-sm-block" alt="Reciclagem">
+                <img src="./assets/home-background.svg" class="img-fluid" alt="Reciclagem">
             </div>
         </div>
     </div>
 
 
+    <div class="hide" id="modal">
+      <div class="content">
+        <div class="header">
+          <h1>Pontos de coleta</h1>
+          <a href="#">Fechar</a>
+        </div>
+        <form action="" class="form">
+          <label for="search">Cidade</label>
+          <div class="search field">
+            <input type="text" name="search" placeholder="Digite a cidade">
+            <button><img src="./assets/search.svg" alt="Search"></button>
+          </div>
+        </form>
+      </div>
+    </div>
+
     <!-- JS, Popper.js, and jQuery -->
+    <script src="./scripts/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>

@@ -38,10 +38,14 @@ function getCities(event){
         citySelect.disabled = false
     })
 }
+
+
+// ouvidor de eventos
 // quando houver uma mudança no select UF chame a função getCities
 document
     .querySelector("select[name=uf]")
     .addEventListener("change",getCities)
+
 
 
 // Itens de coleta
@@ -49,11 +53,41 @@ const itemsToCollect = document.querySelectorAll(".items-grid li")
 for(item of itemsToCollect){
     item.addEventListener("click",handleSelectedItem)
 }
+const collectedItems = document.querySelector("input[name=items]")
+let selectedItems = []
+
+
 function handleSelectedItem(event){
     const itemLi = event.target
-    // adicionar ou remover uma classe com js
+    // adicionar ou remover uma classe com js usando toggle
     itemLi.classList.toggle("selected")
 
-
+    //pega os numeros do ID
     const itemId = itemLi.dataset.id
+    
+    // verificar se existem itens selecionados,se set
+    // pegar os itens selecionados
+    const alreadySelected = selectedItems.findIndex(item =>{
+         const itemFound = item == itemId
+         return itemFound //return true or false
+        // ou
+        // return item == itemId
+    })
+
+    // se já estiver selecionado
+    if(alreadySelected >=0){
+        // tirar da seleção
+        const filteredItems = selectedItems.filter(item =>{
+            const itemIsDiff = item != itemId
+            return itemIsDiff
+        })
+        selectedItems = filteredItems
+    }else{
+        // se não estiver selecionado , adicionar a seleção
+        selectedItems.push(itemId)
+        console.log(selectedItems)
+    }   
+
+    // atualizar o campo esconddio com os itens selecionados
+    collectedItems.value = selectedItems
 }

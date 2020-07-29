@@ -16,6 +16,22 @@
     .logo-img{
         margin: 0 auto;
     }
+    .btn{
+        display: flex;
+        align-items: center;
+        margin-top: 50px !important;
+    }
+    #modal .header h1{
+        font-size: 30px !important;
+        margin-left: 20px;
+        line-height: 20px;
+    }
+    #modal .header a {
+        margin-right: 20px;
+    }
+    .form{
+        margin: 0px 20px 0px 20px;
+    }
 }
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
