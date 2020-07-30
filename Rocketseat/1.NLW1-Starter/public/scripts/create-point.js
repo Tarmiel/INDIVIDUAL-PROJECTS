@@ -1,3 +1,6 @@
+/**
+ * Populando os UF.
+ */
 function populateUfs(){
     const ufSelect = document.querySelector("select[name=uf]")
 
@@ -12,31 +15,37 @@ function populateUfs(){
 }
 populateUfs()
 
-function getCities(event){
+
+/**
+ * Função para "pegar" as cidades.
+ */
+function getCities(event) {
     const citySelect = document.querySelector("[name=city]")
     const stateInput = document.querySelector("[name=state]")
-    
+
     const ufValue = event.target.value
 
-    const indexOfSelectState = event.target.selectedIndex
-    stateInput.value = event.target.options[indexOfSelectState].text
+    const indexOfSelectedState = event.target.selectedIndex
+    stateInput.value = event.target.options[indexOfSelectedState].text
+
 
     const url = `https://servicodados.ibge.gov.br/api/v1/localidades/estados/${ufValue}/municipios`
 
 
-    citySelect.innerHTML = "<option value>Selecione a cidade</option>"
+    citySelect.innerHTML = "<option value>Selecione a Cidade</option>"
     citySelect.disabled = true
 
-
     fetch(url)
-    .then( res => res.json())
+    .then( res => res.json() )
     .then( cities => {
-        // populando o select
-        for(city of cities){
-            citySelect.innerHTML += `<option value="${city.id}">${city.nome}</option>`
+        
+
+        for( const city of cities ) {
+            citySelect.innerHTML += `<option value="${city.nome}">${city.nome}</option>`
         }
+
         citySelect.disabled = false
-    })
+    } )
 }
 
 
@@ -48,11 +57,15 @@ document
 
 
 
-// Itens de coleta
+/**
+ * Itens de coleta
+ */
 const itemsToCollect = document.querySelectorAll(".items-grid li")
 for(item of itemsToCollect){
     item.addEventListener("click",handleSelectedItem)
 }
+
+
 const collectedItems = document.querySelector("input[name=items]")
 let selectedItems = []
 
@@ -64,6 +77,7 @@ function handleSelectedItem(event){
 
     //pega os numeros do ID
     const itemId = itemLi.dataset.id
+    console.log('itemId',itemId)
     
     // verificar se existem itens selecionados,se set
     // pegar os itens selecionados
@@ -88,6 +102,7 @@ function handleSelectedItem(event){
         console.log(selectedItems)
     }   
 
-    // atualizar o campo esconddio com os itens selecionados
+    console.log('selectedItems', selectedItems)
+    // atualizar o campo escondido com os itens selecionados
     collectedItems.value = selectedItems
 }
