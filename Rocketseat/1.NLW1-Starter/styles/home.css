@@ -1,5 +1,5 @@
 /* START HEADER */
-.log-in-navbar{
+.action-header{
     color:var(--title-color) !important;
     font-size: 18px;
 }
@@ -22,7 +22,7 @@
     font-size: 22px;
 }
 .section1 .btn{
-    background-color: var(--p-color);
+    background-color: var(--primary-color);
     padding: 14px 14px;
     border-radius: 8px;
     margin: 0 auto;

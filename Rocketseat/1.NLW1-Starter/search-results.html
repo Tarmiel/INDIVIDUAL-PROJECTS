@@ -15,15 +15,18 @@
   <!-- CSS only -->
   <link rel="stylesheet" href="./styles/main.css">
   <link rel="stylesheet" href="./styles/search-results.css">
+
   <link rel="stylesheet" href="styles/responsive.css">
 
 </head>
 <body>
 
     <header> <!--inicio cabelalho-->
-      <nav class="navbar navbar-expand-sm mt-3">
+      <nav class="navbar navbar-expand-sm mt-2">
         <div class="container">
-          <img class="logo-img" src="assets/logo.svg" width="150">
+          <a href="index.html" class="logo-img">
+            <img src="assets/logo.svg" width="150">
+          </a>
 
           <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
             <i class="fas fa-bars"></i>
@@ -31,42 +34,48 @@
 
           <div class="collapse navbar-collapse" id="nav-principal">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item text-center"> <a href="" class="arrow-left-home"><img src="./assets/arrow-left.svg" alt="Icone Cadastro" width="30"> Voltar para home</a> </li>
+              <li class="nav-item text-center"> <a href="index.html" class="action-header"><img src="./assets/arrow-left.svg" alt="Icone Cadastro" width="30"> Voltar para home</a> </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 mt-5">
-                <h4>
-                    <strong>2 pontos</strong> encontrados
-                </h4>
-                <div class="row mt-5">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                          <h5 class="card-title text-center">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                      </div>
-                      <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                          <h5 class="card-title text-center">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-md-12">
+          <h4>
+            <strong>2 pontos</strong> encontrados
+          </h4>
+          <div class="cards mt-4">
+            <div class="card">
+              <img src="https://images.unsplash.com/photo-1528323273322-d81458248d40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1401&q=80" alt="Colectoria">
+              <div class="card-interior">
+                <h1>Colectoria</h1>
+                <h3>Resíduos Eletrônicos, Lâmpadas</h3>
+                <p>Rio do Sul, Santana Catarina<br/>
+                  Guilherme Gemballa, Jardim América <br/>
+                  Número 260
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://images.unsplash.com/photo-1567393528677-d6adae7d4a0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="Paperside">
+              <div class="card-interior">
+                <h1>Paperside</h1>
+                <h3>Papéis e Papelão</h3>
+                <p>Rio do Sul, Santana Catarina<br/>
+                  Guilherme Gemballa, Jardim América <br/>
+                  Número 260
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     
     <!-- JS, Popper.js, and jQuery -->
-    <script src="./scripts/create-point.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>

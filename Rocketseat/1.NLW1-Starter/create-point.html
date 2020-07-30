@@ -15,15 +15,18 @@
   <!-- CSS only -->
   <link rel="stylesheet" href="./styles/main.css">
   <link rel="stylesheet" href="styles/create-point.css">
+
   <link rel="stylesheet" href="styles/responsive.css">
 
 </head>
 <body>
 
     <header> <!--inicio cabelalho-->
-      <nav class="navbar navbar-expand-sm mt-3">
+      <nav class="navbar navbar-expand-sm mt-2">
         <div class="container">
-          <img class="logo-img" src="assets/logo.svg" width="150">
+          <a href="index.html" class="logo-img">
+            <img src="assets/logo.svg" width="150">
+          </a>
 
           <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
             <i class="fas fa-bars"></i>
@@ -31,10 +34,9 @@
 
           <div class="collapse navbar-collapse" id="nav-principal">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item text-center"> <a href="" class="arrow-left-home"><img src="./assets/arrow-left.svg" alt="Icone Cadastro" width="30"> Voltar para home</a> </li>
+              <li class="nav-item text-center"> <a href="index.html" class="action-header"><img src="./assets/arrow-left.svg" alt="Icone Cadastro" width="30"> Voltar para home</a> </li>
             </ul>
           </div>
-
         </div>
       </nav>
     </header>
@@ -42,7 +44,7 @@
     <div class="container section1 mt-5 bg-white rounded mb-5">
       <div class="row">
         <div class="col-md-12">
-          <form action="" class="mt-5">
+          <form action="#" class="mt-5">
             <h1>Cadastro do ponto de coleta</h1>
             <fieldset class="mt-2">
               <h2>Dados da entidade</h2>
@@ -108,16 +110,14 @@
               </div>
               <input type="hidden" name="items">
             </fieldset>
-            <button class="button mt-4">Cadastrar ponto de coleta</button>
+            <button class="btn mt-4">Cadastrar ponto de coleta</button>
           </form>
         </div>
       </div>
     </div>
-  
-
-    
     <!-- JS, Popper.js, and jQuery -->
     <script src="./scripts/create-point.js"></script>
+    <script src="./scripts/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>

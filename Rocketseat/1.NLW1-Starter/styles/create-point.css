@@ -1,21 +1,17 @@
-.arrow-left-home{
-    color:var(--title-color) !important;
-    font-size: 18px;
-}
 .section1{
     padding: 0 70px 50px 70px;
 }
-.button{
+.btn{
     background-color: #59ff80;
     padding: 14px 14px;
     border-radius: 10px;
-    color:white;
+    color:white !important;
     font-size: 22px;
     font-weight: 500;
     transition: 1.5s;
 }
-.button:hover{
-    background-color:var(--p-color);
+.btn:hover{
+    background-color:var(--primary-color);
 }
 .items-grid{
     /* criando as colunas */
@@ -47,7 +43,7 @@
 }
 .items-grid li.selected{
     background:#e1faec;
-    border: 2px solid #34cb79;
+    border: 2px solid var(--primary-color);
 
 }
 /* pegar a tag li ao inves da imagem e do span */

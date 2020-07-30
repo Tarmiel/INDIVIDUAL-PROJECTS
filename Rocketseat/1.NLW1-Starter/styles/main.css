@@ -4,7 +4,7 @@
 }
 :root{
     --title-color:#322153;
-    --p-color:#34CB79;
+    --primary-color:#34CB79;
     --form-color: #f0f0f5;
 }
 html{
@@ -14,9 +14,13 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Ubuntu', sans-serif;
     color:var(--title-color);
 }
-body{
-    background-color: #f0f0f5;
-}
 a{
     text-decoration:none !important;
+}
+.action-header{
+    color:var(--title-color);
+    font-size: 18px;
+}
+body{
+    background-color: #f0f0f5;
 }
