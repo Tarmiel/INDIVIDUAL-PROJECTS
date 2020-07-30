@@ -1,6 +1,6 @@
 <h5 align="center"> 
 
-  ![Logo NLW1](https://github.com/Tarmiel/WS.apps/blob/master/Rocketseat/1.NLW1-Starter/github/logo.svg) 
+  ![Logo NLW1]https://github.com/Tarmiel/WS.apps/blob/master/Rocketseat/1.NLW1-Starter/public/github/logo.svg) 
 </h5>
 
 <h1 align="center">Next Level Week 1.0 Starter - Ecoleta:seedling:</h1>
