@@ -14,8 +14,10 @@ O Ecoleta funciona como uma "esp√©cie" de "marketplace" que auxilia na localiza√
 - CSS3
 - BOOTSTRAP4
 - Javascript
-- NodeJS
-- Sqlite3
+- Node.Js
+- Express
+- SQLite
+- Nunjucks
 
 ![Ecoleta](https://repository-images.githubusercontent.com/268559110/520c8a80-a8fc-11ea-8512-15f8979b418c)
 
