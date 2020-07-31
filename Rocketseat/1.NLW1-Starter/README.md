@@ -19,6 +19,21 @@ O Ecoleta funciona como uma "espécie" de "marketplace" que auxilia na localiza�
 - SQLite
 - Nunjucks
 
+### :unlock:Rodando a aplicação web (Front End)
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/Tarmiel/WS.apps/tree/master/Rocketseat/1.NLW1-Starter
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd 1.NLW1-Starter
+
+# Execute a aplicação
+$ npm start
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+```
+
 ![Ecoleta](https://repository-images.githubusercontent.com/268559110/520c8a80-a8fc-11ea-8512-15f8979b418c)
 
 ###### Desenvolvido(boa parte) utilizando estruturas do bootstrap.
