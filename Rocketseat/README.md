@@ -12,7 +12,7 @@ trabalho, todas as ferramentas que você precisa para masterizar no menor tempo 
 
 <h4 align="center">
 
-[![Rocketseat](https://img.shields.io/badge/-Rocketseat-Clique-Aqui-blueviolet?style=for-the-badge&logo=Apache-RocketMQ&logoWidth=30&logoColor=critical&color=7159C1&labelColor=19191C)](https://rocketseat.com.br/)
+[![Rocketseat](https://img.shields.io/badge/-Rocketseat_[Clique_Aqui]-blueviolet?style=for-the-badge&logo=Apache-RocketMQ&logoWidth=30&logoColor=critical&color=7159C1&labelColor=19191C)](https://rocketseat.com.br/)
 </h4>
 
 ![Rocketseat](https://miro.medium.com/max/3840/1*34-5tbanwB0yo0ccyP_7oA.jpeg)
