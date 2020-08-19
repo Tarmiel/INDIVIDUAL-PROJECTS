@@ -1,9 +1,11 @@
 <h5 align="center"> 
-
+  
   ![Logo NLW1](https://github.com/Tarmiel/WS.apps/blob/master/Rocketseat/1.NLW1-Starter/public/github/logo.svg) 
 </h5>
 
 <h1 align="center">Next Level Week 1.0 Starter - Ecoleta:seedling:</h1>
+
+![Ecoleta](https://github.com/Tarmiel/WS.apps/blob/master/Rocketseat/1.NLW1-Starter/public/assets/cont.png)
 
 ### :computer:Sobre o Projeto:
 O Ecoleta funciona como uma "espécie" de "marketplace" que auxilia na localização de pontos de coleta de diversos tipos de resíduos maléficos ao meio ambiente.
