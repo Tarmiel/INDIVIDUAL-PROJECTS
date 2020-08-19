@@ -1,9 +1,9 @@
 <h1 align="center"> Rocketseat track repository </h1>
 
-<h4> CC(copiei e colei) - Sobre a Rocketseat:</h4>
+<h4> CC - Sobre a Rocketseat 🚀:</h4>
 
 <br>
-<p>Mais do que uma plataforma de educação em tecnologia, somos uma comunidade incrível de programadores em busca do próximo nível 🚀
+<p>Mais do que uma plataforma de educação em tecnologia, somos uma comunidade incrível de programadores em busca do próximo nível.
   
 Em um mundo onde a informação fica obsoleta cada vez mais rápido, velocidade de aprendizado é a chave para o sucesso.
 
