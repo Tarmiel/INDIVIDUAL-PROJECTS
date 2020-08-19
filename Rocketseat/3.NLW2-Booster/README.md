@@ -34,10 +34,11 @@ $ npm start or yarn start
 
 # A aplicação back-end será aberta na porta:3333 - acesse http://localhost:3333
 #Rotas da aplicação:
-Listagem de professores: GET: /classes
-Criação de professor: POST: /classes
-Retorna a quantidade de conexões feitas: GET: /connections
-Criação de uma conexão: POST: /connections
+- Listagem de professores: GET /classes
+- Criação de professor: POST /classes
+- Quantidade de conexões: GET /connections
+- Criação de uma conexão: POST /connections
+
 ```
 
 ![Ecoleta](https://repository-images.githubusercontent.com/284814831/8cae6a00-d769-11ea-998b-bdc878327c43)
