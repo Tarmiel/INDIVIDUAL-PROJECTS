@@ -3,7 +3,7 @@
 
 <h4 align="center">
 
-[![Rocketseat Starter](https://img.shields.io/badge/-Rocketseat_Starter-blueviolet?style=for-the-badge&logo=Apache-RocketMQ&logoWidth=30&logoColor=critical&color=7159C1&labelColor=19191C)](https://rocketseat.com.br/)
+[![Rocketseat](https://img.shields.io/badge/-Rocketseat_Starter-blueviolet?style=for-the-badge&logo=Apache-RocketMQ&logoWidth=30&logoColor=critical&color=7159C1&labelColor=19191C)](https://rocketseat.com.br/)
 
 </h4>
 
