@@ -8,6 +8,7 @@ Em um mundo onde a informação fica obsoleta cada vez mais rápido, velocidade 
 
 Por isso a Rocketseat oferece através de uma plataforma inteligente e metodologia prática, além de comunidade, eventos, conteúdo e conexão com o mercado de 
 trabalho, todas as ferramentas que você precisa para masterizar no menor tempo possível as tecnologias mais modernas de desenvolvimento web e mobile, e dessa forma avançar para o próximo nível como programador.
+
 </p>
 
 <h4 align="center">
