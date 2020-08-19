@@ -33,7 +33,7 @@ $ npm start or yarn start
 # A aplicação front-end será aberta na porta:3000 - acesse http://localhost:3000
 
 # A aplicação back-end será aberta na porta:3333 - acesse http://localhost:3333
-#Rotas da aplicação:
+# Rotas da aplicação:
 - Listagem de professores: GET /classes
 - Criação de professor: POST /classes
 - Quantidade de conexões: GET /connections
