@@ -16,8 +16,10 @@
 </h5>
 
 <h4>Home</h4>
+
 ![IMG](https://github.com/Tarmiel/WS.apps/blob/master/III.WordPress/7.Lolja/p1.png)
 
 
 <h4>Loja / Produtos</h4>
+
 ![IMG](https://github.com/Tarmiel/WS.apps/blob/master/III.WordPress/7.Lolja/p2.png)
