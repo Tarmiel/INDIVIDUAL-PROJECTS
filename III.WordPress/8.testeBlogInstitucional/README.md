@@ -12,6 +12,4 @@
   </ul>
 </h5>
 
-<hr>
-
 ![IMG](https://github.com/Tarmiel/WS.apps/blob/master/III.WordPress/8.testeBlogInstitucional/p1.png)
