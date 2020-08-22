@@ -1,7 +1,7 @@
 
 <h1 align="center">Next Level Week 2.0 Booster - Proffy</h1>
 
-![Proffy](https://github.com/Tarmiel/WS.apps/blob/master/Rocketseat/3.NLW2-Booster/web/src/assets/images/cont.png)
+![Proffy](https://github.com/Tarmiel/WS.apps/blob/master/II.Dinamic/5.Proffy_booster/web/src/assets/images/cont.png)
 
 ### :computer:Sobre o Projeto:
 Proffy é uma plataforma online feita para auxiliar na conexão entre estudantes e professores.
@@ -16,10 +16,10 @@ Proffy é uma plataforma online feita para auxiliar na conexão entre estudantes
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/Tarmiel/WS.apps/tree/master/Rocketseat/3.NLW2-BOoster
+$ git clone https://github.com/Tarmiel/WS.apps/tree/master/II.Dinamic/5.Proffy_booster
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd 3.NLW2-Booster
+$ cd 5.Proffy_booster
 
 # Para instalar todas as dependências do projeto -> web/server/mobile
 $ npm install or yarn install
