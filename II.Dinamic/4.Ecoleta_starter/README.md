@@ -1,6 +1,6 @@
 <h5 align="center"> 
   
-  ![Logo NLW1](https://github.com/Tarmiel/WS.apps/blob/master/Rocketseat/1.NLW1-Starter/public/github/logo.svg) 
+  ![Logo NLW1](https://github.com/Tarmiel/WS.apps/blob/master/II.Dinamic/4.Ecoleta_starter/public/assets/logo.svg) 
 </h5>
 
 <h1 align="center">Next Level Week 1.0 Starter - Ecoleta:seedling:</h1>
@@ -25,7 +25,7 @@ O Ecoleta funciona como uma "espécie" de "marketplace" que auxilia na localiza�
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/Tarmiel/WS.apps/tree/master/Rocketseat/1.NLW1-Starter
+$ git clone https://github.com/Tarmiel/WS.apps/tree/master/II.Dinamic/4.Ecoleta_starter
 
 # Acesse a pasta do projeto no seu terminal/cmd
 $ cd 1.NLW1-Starter
