@@ -1,7 +1,5 @@
 <h1>BLog(só o início)baseado no vídeo do canal <a href="https://www.youtube.com/user/insufmental"> a Escola de Sites</a></h1>
 
-<hr>
-
 <h5>Tema:
   <ul>    
     <li>Hello Elementor</li>
