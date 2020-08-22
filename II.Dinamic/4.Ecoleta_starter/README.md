@@ -28,7 +28,7 @@ O Ecoleta funciona como uma "espécie" de "marketplace" que auxilia na localiza�
 $ git clone https://github.com/Tarmiel/WS.apps/tree/master/II.Dinamic/4.Ecoleta_starter
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd 1.NLW1-Starter
+$ cd 4.Ecoleta-starter
 
 # Execute a aplicação
 $ npm start
