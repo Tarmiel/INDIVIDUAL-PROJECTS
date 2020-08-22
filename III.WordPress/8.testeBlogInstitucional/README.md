@@ -1,10 +1,19 @@
-<h4>BLog(só o início)baseado no vídeo do canal <a href="https://www.youtube.com/user/insufmental"> a Escola de Sites</a></h4>
-<hr>
-<h5>Tema:</h5>
-<li>Hello Elementor</li>
-<h5>Plugins:</h5>
-<li>Elementor</li>
+<h1>BLog(só o início)baseado no vídeo do canal <a href="https://www.youtube.com/user/insufmental"> a Escola de Sites</a></h1>
 
 <hr>
 
-![IMG](https://github.com/Tarmiel/PJ_web/blob/master/WordPress/8.testeBlogInstitucional/p1.png)
+<h5>Tema:
+  <ul>    
+    <li>Hello Elementor</li>
+  </ul>
+</h5>
+
+<h5>Plugins:
+  <ul> 
+    <li>Elementor</li>
+  </ul>
+</h5>
+
+<hr>
+
+![IMG](https://github.com/Tarmiel/WS.apps/blob/master/III.WordPress/8.testeBlogInstitucional/p1.png)
