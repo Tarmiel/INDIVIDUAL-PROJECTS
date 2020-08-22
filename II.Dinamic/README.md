@@ -1,4 +1,4 @@
-<h1 align="center>Dynamic sites</h1>
+<h1 align="center">Dynamic sites</h1>
 
 #### 'Simple' sites, from PHP to React.
  
