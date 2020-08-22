@@ -1,3 +1,5 @@
-<h1 align="center"> Sites Estáticos </h1>
+<h1 align="center">Static sites</h1>
 
-![Imagem](https://miro.medium.com/max/1000/1*oyLzhonWPE73R77nu3vH7A.jpeg)
+#### 'Dry' websites, only CSS and Bootstrap.
+
+![Imagem](https://blog.rocketseat.com.br/content/images/2019/03/5_ferramentas_em_alta_para_desenvolvedores_React.png)
