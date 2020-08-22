@@ -10,7 +10,7 @@ Tecnologias utilizadas:</h4>
 </h5></ul>
 <hr>
 
-![PRT](https://github.com/Tarmiel/WS.apps/tree/master/I.Static/1.Finans/print)
-![PRT](https://github.com/Tarmiel/WS.apps/tree/master/I.Static/1.Finans/print)
-![PRT](https://github.com/Tarmiel/WS.apps/tree/master/I.Static/1.Finans/print)
-![PRT](https://github.com/Tarmiel/WS.apps/tree/master/I.Static/1.Finans/print)
+![PRT](https://github.com/Tarmiel/WS.apps/blob/master/I.Static/1.Finans/print/p1.png)
+![PRT](https://github.com/Tarmiel/WS.apps/blob/master/I.Static/1.Finans/print/p2.png)
+![PRT](https://github.com/Tarmiel/WS.apps/blob/master/I.Static/1.Finans/print/p3.png)
+![PRT](https://github.com/Tarmiel/WS.apps/blob/master/I.Static/1.Finans/print/p4.png)
