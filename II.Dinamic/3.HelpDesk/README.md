@@ -1,23 +1,19 @@
-# 'Help Desk'
-<h4> Site desenvolvido ao longo do módulo "PHP7" do curso "<a href="https://www.udemy.com/course/web-completo/">Desenvolvimento Web Completo 2020 - 20 cursos + 20 projetos - Udemy</a>"</h4>
-<h4> APP Help Desk - abertura de chamados e consulta </h4>
-<h4> Dados para login em "/Scripts/valida_login.php"</h4>
-<hr>
+<h1 align="center">Help Desk</h1>
+
+<h4> Site desenvolvido ao longo do módulo "PHP7" do curso "<a href="https://www.udemy.com/course/web-completo/">Desenvolvimento Web Completo 2020 - 20 cursos + 20 projetos - Udemy</a>"
+APP Help Desk - abertura de chamados e consulta
+Dados para login em "/Scripts/valida_login.php"
 <h4>Tecnologias utilizadas:</h4>
-<ul>
-  <li><h4>HTML5</h4></li>
-  <li><h4>BOOTSTRAP 4</h4></li>
-  <li><h4>PHP</h4></li>
-</ul>
+
+<ul><h5>
+  <li>HTML5</li>
+  <li>BOOTSTRAP 4</li>
+  <li>PHP</li>
+</ul></h5>
+  
 <hr>
 
-![IMG](https://github.com/Tarmiel/PJ_web/blob/master/Dinamic/3.dHelpDesk/prints/p1.png)
-<hr>
-
-![IMG](https://github.com/Tarmiel/PJ_web/blob/master/Dinamic/3.dHelpDesk/prints/p2.png)
-<hr>
-
-![IMG](https://github.com/Tarmiel/PJ_web/blob/master/Dinamic/3.dHelpDesk/prints/p3.png)
-<hr>
-
-![IMG](https://github.com/Tarmiel/PJ_web/blob/master/Dinamic/3.dHelpDesk/prints/p4.png)
+![IMG](https://github.com/Tarmiel/WS.apps/blob/master/II.Dinamic/3.HelpDesk/prints/p1.png)
+![IMG](https://github.com/Tarmiel/WS.apps/blob/master/II.Dinamic/3.HelpDesk/prints/p2.png)
+![IMG](https://github.com/Tarmiel/WS.apps/blob/master/II.Dinamic/3.HelpDesk/prints/p3.png)
+![IMG](https://github.com/Tarmiel/WS.apps/blob/master/II.Dinamic/3.HelpDesk/prints/p4.png)
