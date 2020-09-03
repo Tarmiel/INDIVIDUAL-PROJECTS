@@ -39,6 +39,7 @@ $ npm start or yarn start
 - Quantidade de conexões: GET /connections
 - Criação de uma conexão: POST /connections
 
+# Para a aplicação mobile utilize o Expo
 ```
 
 ![Ecoleta](https://repository-images.githubusercontent.com/284814831/8cae6a00-d769-11ea-998b-bdc878327c43)
