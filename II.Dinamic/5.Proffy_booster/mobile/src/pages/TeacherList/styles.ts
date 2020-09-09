@@ -13,8 +13,6 @@ const styles = StyleSheet.create({
 
     searchForm:{
         marginBottom:24,
-        transition: width 3s,
-
     },
 
     label:{
