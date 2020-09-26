@@ -12,4 +12,4 @@ Tecnologias utilizadas:</h4>
 <h4>Utilizado a biblíoteca PHPMailer</h4>
 <hr>
 
-![img](https://github.com/Tarmiel/WS.apps/blob/master/II.Dinamic/2.app_SendEmail/mailsend.png)
+![img](https://github.com/Tarmiel/WS.apps/blob/master/II.Dinamic/2__PHP__SendEmail/logo.png)
