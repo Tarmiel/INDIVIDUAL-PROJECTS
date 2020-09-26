@@ -1,11 +1,11 @@
 <h5 align="center"> 
   
-  ![Logo NLW1](https://github.com/Tarmiel/WS.apps/blob/master/II.Dinamic/4.Ecoleta_starter/public/assets/logo.svg) 
+  ![Logo NLW1](https://github.com/Tarmiel/WS.apps/blob/master/II.Dinamic/4__JS__Ecoleta.starter/public/assets/logo.svg) 
 </h5>
 
 <h1 align="center">Next Level Week 1.0 Starter - Ecoleta:seedling:</h1>
 
-![Ecoleta](https://github.com/Tarmiel/WS.apps/blob/master/II.Dinamic/4.Ecoleta_starter/public/assets/cont.png)
+![Ecoleta](https://github.com/Tarmiel/WS.apps/blob/master/II.Dinamic/4__JS__Ecoleta.starter/public/assets/cont.png)
 
 ### :computer:Sobre o Projeto:
 O Ecoleta funciona como uma "espécie" de "marketplace" que auxilia na localização de pontos de coleta de diversos tipos de resíduos maléficos ao meio ambiente.
