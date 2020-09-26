@@ -13,7 +13,7 @@ Dados para login em "/Scripts/valida_login.php"
   
 <hr>
 
-![IMG](https://github.com/Tarmiel/WS.apps/blob/master/II.Dinamic/3.HelpDesk/prints/p1.png)
-![IMG](https://github.com/Tarmiel/WS.apps/blob/master/II.Dinamic/3.HelpDesk/prints/p2.png)
-![IMG](https://github.com/Tarmiel/WS.apps/blob/master/II.Dinamic/3.HelpDesk/prints/p3.png)
-![IMG](https://github.com/Tarmiel/WS.apps/blob/master/II.Dinamic/3.HelpDesk/prints/p4.png)
+![IMG](https://github.com/Tarmiel/WS.apps/blob/master/II.Dinamic/3__PHP__HelpDesk/prints/p1.png)
+![IMG](https://github.com/Tarmiel/WS.apps/blob/master/II.Dinamic/3__PHP__HelpDesk/prints/p2.png)
+![IMG](https://github.com/Tarmiel/WS.apps/blob/master/II.Dinamic/3__PHP__HelpDesk/prints/p3.png)
+![IMG](https://github.com/Tarmiel/WS.apps/blob/master/II.Dinamic/3__PHP__HelpDesk/prints/p4.png)
