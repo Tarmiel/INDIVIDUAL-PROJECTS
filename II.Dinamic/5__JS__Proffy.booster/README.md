@@ -1,7 +1,7 @@
 
 <h1 align="center">Next Level Week 2.0 Booster - Proffy</h1>
 
-![Proffy](https://github.com/Tarmiel/WS.apps/blob/master/II.Dinamic/5.Proffy_booster/web/src/assets/images/cont.png)
+![Proffy](https://github.com/Tarmiel/WS.apps/blob/master/II.Dinamic/5__JS__Proffy.booster/web/src/assets/images/cont.png)
 
 ### :computer:Sobre o Projeto:
 Proffy é uma plataforma online feita para auxiliar na conexão entre estudantes e professores.
