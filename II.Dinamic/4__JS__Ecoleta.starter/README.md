@@ -12,9 +12,9 @@ O Ecoleta funciona como uma "esp√©cie" de "marketplace" que auxilia na localiza√
 
 ### :rocket:Tecnologias:
 
-- HTML5
-- CSS3
-- BOOTSTRAP4
+- Html5
+- Css3
+- Bootstrap4
 - Javascript
 - Node.Js
 - Express
