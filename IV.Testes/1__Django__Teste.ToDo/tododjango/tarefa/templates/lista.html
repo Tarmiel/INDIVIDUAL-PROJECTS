@@ -1,0 +1,31 @@
+{% extends './model.html' %}
+
+{% block content %}
+
+    <h1 class="test">Todo App Django - Teste</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-5">
+            <form method="POST"> {% csrf_token %}
+                <div class="form-group">
+                    {{form.as_p|addcss>"style.css"}}
+                    <input type="text" name="conteudo" maxlength="200" required="" id="id_conteudo">
+                    <button type="" class="btn btn-success">Enviar</button>
+                </div>
+            </form>
+            </div>
+        
+        </div>
+    
+        {% for conteudo in conteudos %}
+        <p>{{conteudo.conteudo}} <br> {{conteudo.data}} </p>
+
+        <form action="../tarefas/delete/{{conteudo.id}}" method="POST"> {% csrf_token %}
+            <button type="submit">Delete</button>
+        </form>
+
+        {% endfor %}
+    </div>
+
+{% endblock %}
