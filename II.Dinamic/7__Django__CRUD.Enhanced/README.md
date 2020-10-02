@@ -1,4 +1,4 @@
-<h1 align="center">CRUD with login and registration in Django</h1>
+<h1 align="center">CRUD with login and registration using Django</h1>
 <h3 align="center">Simple CRUD, with user login and registration ( clean HTML )</h3>
 <br><br>
 
