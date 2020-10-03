@@ -8,6 +8,12 @@ from django.contrib import messages
 from .models import Task
 # Create your views here.
 
+# Teste
+def error_404_view(request,exception):
+    return render(request,'404.html')
+def error_500_view(request):
+    return render(request,'404.html')
+
 # LISTANDO AS TAREFAS
 @login_required
 def taskList(request):
@@ -19,11 +25,11 @@ def taskList(request):
 
     if search:
         # tasks = Task.objects.filter(title__icontains=search).order_by('-created_at')
-        tasks = Task.objects.filter(title=search).order_by('-created_at') #exato
+        tasks = Task.objects.filter(title=search, user=request.user).order_by('-created_at') #exato
 
     else:
         # Paginação / Exbição
-        tasks_list = Task.objects.all().order_by('-created_at')
+        tasks_list = Task.objects.all().order_by('-created_at').filter( user=request.user)
         paginator = Paginator(tasks_list,3)
         page = request.GET.get('page')
         tasks = paginator.get_page(page)
@@ -32,9 +38,8 @@ def taskList(request):
 
 # VISUALIZANDO AS TAREFAS
 @login_required
-
 def taskView(request,id):
-    task = get_object_or_404(Task,pk=id)
+    task = get_object_or_404(Task,pk=id,user=request.user)
     return render(request,'tasks/taskview.html',{'task':task})
 
 # ADICIONANDO NOVA TAREFA
@@ -46,6 +51,7 @@ def newTask(request):
         if form.is_valid():
             task = form.save(commit=False)
             task.done = 'doing'
+            task.user = request.user
             task.save()
             return redirect('/')
     else:
