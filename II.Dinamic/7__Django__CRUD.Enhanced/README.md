@@ -10,4 +10,8 @@
       }
 </h3>
 
-![Django](https://blog.crowdbotics.com/content/images/2019/12/python-django.png)
+<p align="center">
+
+![Site](print.png)
+
+</p>
