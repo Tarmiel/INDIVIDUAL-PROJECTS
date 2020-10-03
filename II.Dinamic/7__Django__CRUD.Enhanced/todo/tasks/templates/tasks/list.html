@@ -8,6 +8,26 @@
 {% block content %}
     <div class="offset-1 col-10 list-div">
         <h1>Lista de tarefas</h1>
+
+        <div class="container dashboard text-center mb-5">
+            <div class="row">
+                <div class="col-4 dashboardbox bg-success w-75"  id="dashboard-lastdays">
+                    <h4>Finalizadas nos últimos 30 dias</h4>
+                    <span>{{tasksDoneRecently}}</span>
+                </div>
+                <div class="col-4 dashboardbox bg-warning" id="dashboard-done">
+                    <h4>Em aberto</h4>
+                    <span>{{tasksDoing}}</span>
+                </div>
+                <div class="col-4 bg-primary " id="dashboard-doing">
+                    <h4>Concluidas</h4>
+                    <span>{{tasksDone}}</span>
+                </div>
+            </div>
+        </div>
+
+
+
         <a href="{% url 'newTask' %}">
             <div class="col-4 add-div">
                 <i class="fas fa-plus">Adicionar</i>
@@ -21,6 +41,18 @@
                 <i class="fas fa-search"></i>
             </form>
         </div>  
+
+        <div>
+            <span>Filtrar por</span>
+            <form method="GET">
+                <select name="filter" id="filter" class="form-control">
+                    <option value="">Escolha uma opçãoo</option>
+                    <option value="done">Concluidas</option>
+                    <option value="doing">Fazendo</option>
+                </select>
+                <button type="submit">Pesqusar</button>
+            </form>
+        </div>
     
         <!-- Confirmação de exclusão -->
         {% if messages %}
@@ -34,8 +66,17 @@
                 {% for task in tasks %}
                     <li class="task-item">
                         <span class="ml-5"><a href="{% url 'taskView' task.id %}">{{task.id}}- {{task.title}}</a></span>
-                        <a href="{%  url 'deleteTask' task.id %}"> <span><i class="fas fa-trash"></i></span></a>
-                        <a href="{% url 'editTask' task.id %}"><span><i class="fas fa-edit"></i></span></a>
+
+                        {% if task.done == 'doing' %}
+                            <a href="{%  url 'okTask' task.id %}"> <span><i class="fas fa-user-times"></i></span> </a>
+                            <a href="{% url 'editTask' task.id %}"><span><i class="fas fa-edit"></i></span></a>
+                            <a href="{%  url 'deleteTask' task.id %}"> <span><i class="fas fa-trash"></i></span></a>
+                        {% else %}
+                        <a href="{%  url 'okTask' task.id %}"> <span><i class="fas fa-check"></i></span></a>                     
+
+
+                            
+                        {% endif %}                        
                     </li>
                 {% endfor %}
             {% else %}

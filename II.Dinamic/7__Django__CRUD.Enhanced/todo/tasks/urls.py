@@ -6,5 +6,6 @@ urlpatterns = [
     path('task/<int:id>',views.taskView, name="taskView"),
     path('newTask',views.newTask,name="newTask"),
     path('deleteTask/<int:id>',views.deleteTask,name="deleteTask"),
-    path('editTask/<int:id>',views.editTask,name="editTask")
+    path('editTask/<int:id>',views.editTask,name="editTask"),
+    path('okTask/<int:id>',views.okTask,name='okTask')
 ]

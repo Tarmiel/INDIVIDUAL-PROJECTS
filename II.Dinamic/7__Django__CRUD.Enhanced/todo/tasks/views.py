@@ -4,6 +4,7 @@ from django.core.paginator import Paginator
 from django.http import HttpResponse
 from .forms import TaskForm
 from django.contrib import messages
+import datetime
 
 from .models import Task
 # Create your views here.
@@ -23,9 +24,19 @@ def taskList(request):
     search = request.GET.get('search')
     variable = search
 
+    # Filtro
+    filter = request.GET.get('filter')
+
+
+    tasksDoneRecently = Task.objects.filter(done="done", updated_at__gt= datetime.datetime.now()-datetime.timedelta(days=30),user =request.user).count()
+    tasksDone = Task.objects.filter(done='done',user =request.user).count()
+    tasksDoing = Task.objects.filter(done='doing',user =request.user).count()
     if search:
         # tasks = Task.objects.filter(title__icontains=search).order_by('-created_at')
         tasks = Task.objects.filter(title=search, user=request.user).order_by('-created_at') #exato
+    
+    elif filter:
+        tasks = Task.objects.filter(done=filter, user=request.user).order_by('-created_at') 
 
     else:
         # Paginação / Exbição
@@ -34,7 +45,7 @@ def taskList(request):
         page = request.GET.get('page')
         tasks = paginator.get_page(page)
 
-    return render(request,'tasks/list.html',{'tasks':tasks})
+    return render(request,'tasks/list.html',{'tasks':tasks,'tasksDoneRecently':tasksDoneRecently,'tasksDone':tasksDone,'tasksDoing':tasksDoing})
 
 # VISUALIZANDO AS TAREFAS
 @login_required
@@ -91,3 +102,14 @@ def deleteTask(request,id):
             return redirect ('/')
     else:
         return redirect ('/')
+
+# FINALIZANDO TAREFA
+@login_required
+def okTask(request,id):
+    task = get_object_or_404(Task,pk=id)
+    if task.done == 'doing':
+        task.done = 'done'
+    else:
+        task.done = 'doing'
+    task.save()
+    return redirect('/')
