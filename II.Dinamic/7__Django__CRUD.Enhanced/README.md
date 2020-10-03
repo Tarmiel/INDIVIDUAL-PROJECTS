@@ -10,8 +10,5 @@
       }
 </h3>
 
-<p align="center">
-
 ![Site](print.png)
 
-</p>
