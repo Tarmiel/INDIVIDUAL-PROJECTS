@@ -2,7 +2,7 @@
 <h3 align="center">Basic CRUD consuming a REST API</h3>
 <br><br>
 
-<h3>:pushpin: Rotas( 127.0.0.1:8000 ):
+<h5>:pushpin: Rotas( 127.0.0.1:8000 ):
 
 - Listar: GET /todo/ 
 - Cadastrar: POST /todo/
@@ -20,7 +20,7 @@
 
 - Deletar: Delete /todo/{id}/
 
-</h3>
+</h5>
 <br>
 
 ![Django](https://blog.crowdbotics.com/content/images/2019/12/python-django.png)
