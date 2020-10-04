@@ -1,6 +1,6 @@
 <h1 align="center">Test - REST Framework in Django</h1>
 <h3 align="center">Basic CRUD consuming a REST API</h3>
-<br><br>
+<br>
 
 <h3> :pushpin: Rotas( 127.0.0.1:8000 ): </h3>
 
