@@ -1,8 +1,9 @@
 <h1 align="center">Test - REST Framework in Django</h1>
-<h3 align="center">Basic CRUD consuming a REST API</h3>
+<h3 align="center">Basic CRUD consuming a REST API<br> Activate venv and run the application using ' python3 manage.py runserver ' </h3>
 <br>
 
 <h3> :pushpin: Rotas( 127.0.0.1:8000 ): </h3>
+
 
 <h5>
 
