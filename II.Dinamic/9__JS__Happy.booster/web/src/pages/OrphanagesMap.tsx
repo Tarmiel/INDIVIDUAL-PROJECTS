@@ -1,13 +1,13 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import {FiPlus} from 'react-icons/fi';
-import {Map,TileLayer} from 'react-leaflet';
+import {FiPlus, FiArrowRight} from 'react-icons/fi';
+import {Map,TileLayer,Marker,Popup } from 'react-leaflet';
 
 import '../styles/pages/orphanages-map.css';
 
 import HappyLogo from '../images/LogoSorriso.svg';
 
-import 'leaflet/dist/leaflet.css';
+import mapIcon from '../utils/mapIcon';
 
 function OrphanagesMap(){
     return(
@@ -29,14 +29,27 @@ function OrphanagesMap(){
                 zoom={15}
                 style={{ width: '100%', height: '100%' }}
             >
-                <TileLayer url="https://a.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+                {/* <TileLayer url="https://a.tile.openstreetmap.org/{z}/{x}/{y}.png" /> */}
+                <TileLayer 
+                    url={`https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`} />
+                <Marker 
+                    position={[-3.8221074,-38.5585407]}
+                    icon={mapIcon}
+                >
+                    <Popup closeButton={false} minWidth={240} maxWidth={240} className="map-popup">
+                        Lar do lulcao
+                        <Link to="/orphanages/1">
+                            <FiArrowRight size={20} color="#FFF" />
+                        </Link>
+                    </Popup>
+                </Marker>
             </Map>
 
-            <Link to="" className="create-orphanage">
+            <Link to="/orphanages/create" className="create-orphanage">
                 <FiPlus size={32} color="#FFF" />
             </Link>
         </div>
     );
-};
+}
 
 export default OrphanagesMap;
