@@ -12,11 +12,13 @@ import lombok.Data;
 @Data
 @Table
 public class Pessoa {
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
 
     String nome;
+
+    String sobrenome;
     
 }
