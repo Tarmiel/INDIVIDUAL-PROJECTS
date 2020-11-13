@@ -18,7 +18,5 @@ public class Pessoa {
     Long id;
 
     String nome;
-
-    String sobrenome;
     
 }
