@@ -1,7 +1,8 @@
+
 .card{
     flex: 1;
     border: 3px solid black;
-    border-radius: 10px;
+    border-radius:10px;
     overflow: hidden;
     margin: 20px;
     background-color: white;
@@ -11,12 +12,14 @@
     min-width: 300px;
 }
 
+.card .conteudo{
+    flex: 1;
+    color: black;
+    margin: 15px 0px;
+}
+
 .card .footer{
     background-color: black;
     color: white;
-    padding: 20px 0px;
-}
-.card .conteudo{
-    color: black;
-    padding: 5px 0px;
+    padding:5px 0px;
 }
