@@ -17,6 +17,7 @@ import lombok.AllArgsConstructor;
 
 @RestController
 @RequestMapping("pessoas")
+// http://localhost:8080/pessoas
 @AllArgsConstructor
 public class PessoaController {
 
