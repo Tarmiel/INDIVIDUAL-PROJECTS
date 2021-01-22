@@ -1,0 +1,36 @@
+.navbar{
+    border-bottom: 1px solid #333;
+    margin-bottom: 2px;
+}
+
+.navbar-nav{
+    margin:auto;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.navbar .navbar-nav a.nav-link{
+    color: white;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    
+}
+.navbar .navbar-nav a.nav-link:hover{
+    color: black;
+}
+.container{
+    padding: 0;
+    margin: 0;
+}
+footer{
+    background-color: pink;
+    height: 200px;
+    width: 100vw;
+    border-top: 1px solid black;
+}
+footer p{
+    color: black;
+    text-align: center;
+    top: 50%;
+    position: relative;
+}
