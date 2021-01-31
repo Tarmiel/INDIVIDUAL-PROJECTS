@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %} Editar tarefa {% endblock %}
+
+{% block content %}
+    <div class="offset-1 col-10 list-div">
+        <h1>Editar tarefa '{{task.title}}'</h1> 
+        <form action="" method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Salvar edição</button>
+        </form>
+    </div>
+
+{% endblock %}

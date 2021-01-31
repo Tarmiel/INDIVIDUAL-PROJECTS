@@ -1,0 +1,108 @@
+{% extends 'base.html' %}
+{% load static %}
+<!-- estilo -->
+{% block css %} <link rel="stylesheet" href="{% static 'css/stylelista.css' %}"> {% endblock %}
+<!-- titulo -->
+{% block title %} Lista de tarefas {% endblock %}
+
+{% block content %}
+    <div class="offset-1 col-10 list-div">
+        <h1>Lista de tarefas</h1>
+
+        <div class="container dashboard text-center mb-5">
+            <div class="row">
+                <div class="col-4 dashboardbox bg-success w-75"  id="dashboard-lastdays">
+                    <h4>Finalizadas nos últimos 30 dias</h4>
+                    <span>{{tasksDoneRecently}}</span>
+                </div>
+                <div class="col-4 dashboardbox bg-warning" id="dashboard-done">
+                    <h4>Em aberto</h4>
+                    <span>{{tasksDoing}}</span>
+                </div>
+                <div class="col-4 bg-primary " id="dashboard-doing">
+                    <h4>Concluidas</h4>
+                    <span>{{tasksDone}}</span>
+                </div>
+            </div>
+        </div>
+
+
+
+        <a href="{% url 'newTask' %}">
+            <div class="col-4 add-div">
+                <i class="fas fa-plus">Adicionar</i>
+            </div>
+        </a>
+        <div class="col-8 search-div">
+            <form method="GET">
+                <input class="form-control" type="text" id="search"
+                 name="search" placeholder="Digite o nome da tarefa para buscar"
+                 value="{{ request.GET.search }}">
+                <i class="fas fa-search"></i>
+            </form>
+        </div>  
+
+        <div>
+            <span>Filtrar por</span>
+            <form method="GET">
+                <select name="filter" id="filter" class="form-control">
+                    <option value="">Escolha uma opçãoo</option>
+                    <option value="done">Concluidas</option>
+                    <option value="doing">Fazendo</option>
+                </select>
+                <button type="submit">Pesqusar</button>
+            </form>
+        </div>
+    
+        <!-- Confirmação de exclusão -->
+        {% if messages %}
+            {% for message in messages %}
+                <p {% if message.tags %} class="alert alert-{{message.tags}}" {% endif %}> {{ message }} </p>
+            {% endfor%}
+        {% endif %}
+
+        <ul class="task-list mt-5">
+            {% if tasks %}
+                {% for task in tasks %}
+                    <li class="task-item">
+                        <span class="ml-5"><a href="{% url 'taskView' task.id %}">{{task.id}}- {{task.title}}</a></span>
+
+                        {% if task.done == 'doing' %}
+                            <a href="{%  url 'okTask' task.id %}"> <span><i class="fas fa-user-times"></i></span> </a>
+                            <a href="{% url 'editTask' task.id %}"><span><i class="fas fa-edit"></i></span></a>
+                            <a href="{%  url 'deleteTask' task.id %}"> <span><i class="fas fa-trash"></i></span></a>
+                        {% else %}
+                        <a href="{%  url 'okTask' task.id %}"> <span><i class="fas fa-check"></i></span></a>                     
+
+
+                            
+                        {% endif %}                        
+                    </li>
+                {% endfor %}
+            {% else %}
+               <p>Nenhum resultado encontrado</p>
+            {% endif %}
+        </ul>
+
+        <!-- Paginação -->
+        <div class="pagination">
+            <span class="step-links">
+                {% if tasks.has_previous %}
+                    <a href="?page={{ tasks.previous_page_number}}"><i class="fas fa-arrow-left"></i></a>
+                {% endif %}
+
+                {% if tasks.paginator.num_pages %}
+                    <span class="current">
+                        {{ tasks.number }} de {{ tasks.paginator.num_pages }}
+                    </span>
+                {% endif %}
+
+                {% if tasks.has_next %}
+                    <a href="?page={{ tasks.next_page_number}}"><i class="fas fa-arrow-right"></i></a>
+                {% endif %}
+            </span>
+        </div>
+    
+    </div>
+
+{% endblock %}
