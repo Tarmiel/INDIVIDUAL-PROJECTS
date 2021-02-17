@@ -1,0 +1,45 @@
+/* START HEADER */
+.action-header{
+    color:var(--title-color) !important;
+    font-size: 18px;
+}
+
+/* END HEADER  */
+
+/* START MAIN DIV */
+.section1{
+    margin-top: 100px;
+}
+.section1 h1{
+    font-size: 50px;
+    line-height: 44px;
+}
+.section1 .img-fluid{
+    margin-top: -50px !important;
+}
+.section1 p{
+    margin-top: 18px;
+    font-size: 22px;
+}
+.section1 .btn{
+    background-color: var(--primary-color);
+    padding: 14px 14px;
+    border-radius: 8px;
+    margin: 0 auto;
+    color:white;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 1.5s;
+    margin-top:5px;
+}
+.section1 .btn:hover{
+    background-color:var(--p-color);
+}
+.img-fluid{
+    position: absolute;
+    z-index: -1;
+}
+.barra{
+    border: 1px solid #322153;
+}
+/* END MAIN DIV */
