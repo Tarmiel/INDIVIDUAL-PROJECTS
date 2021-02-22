@@ -1,4 +1,4 @@
-<h1 align="center">Dynamic sites</h1>
+<h1 align="center">Dynamic sites:mag_right:</h1>
 
 #### 'Academic projects'.
  
